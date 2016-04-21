@@ -9,7 +9,7 @@ title:               My Tech Journey
 tagline:             'A blog by João Almeida'
 description:         ''
 url:                 http://lanyon.getpoole.com
-baseurl:             'http://joao-m-almeida.github.io/'
+baseurl:             ''
 paginate:            5
 
 # About/contact

@@ -31,7 +31,7 @@ Despite our interest on Machine learning we didn't have any experience on natura
 Then we tried to spice things up by testing:
 
 - Part-of-Speech (POS) Tagging;
-- Manualy Crafting features;
+- Manually Crafting features;
 - Adding external data;
 
 ### Bag-of-Words
@@ -50,15 +50,15 @@ We wondered if there were __common spanish mistakes__ made by the machine transl
 This ended __improving our cross validated score on about 1%__.
 
 ### Getting more data
-As 20K samples is a small dataset for Natural Language Tasks we searched for some external data that could aid our efforts. Since we didn't find any dataset for this task we decided to create one from [The Billingual News](http://www.thebilingualnews.com/) with the help of [Google Translate](http://translate.google.com/). This was done manualy and the resulting dataset was of poor quality so we ended up giving up. We were running out of time and our results weren't improving with this extra data.
+As 20K samples is a small dataset for Natural Language Tasks we searched for some external data that could aid our efforts. Since we didn't find any dataset for this task we decided to create one from [The Bilingual News](http://www.thebilingualnews.com/) with the help of [Google Translate](http://translate.google.com/). This was done manually and the resulting dataset was of poor quality so we ended up giving up. We were running out of time and our results weren't improving with this extra data.
 
 ## What worked best
 
-A __Voting Classifier__ based on __LDA__, __LogisticRegression__ and __AdaBoost__ with on the __handmade features__ and on the __POS Tagged bi-grams__ with dimensionality reduction by __pricinpal component analysis__.
+A __Voting Classifier__ based on __LDA__, __LogisticRegression__ and __AdaBoost__ with on the __handmade features__ and on the __POS Tagged bi-grams__ with dimensionality reduction by __principal component analysis__.
 
 ## An Interesting discovery
 
-One of the most intriguing results we got was when applying KNN classifiers (K = 3 or 5 ) to the problem. The __cross validadted accuracy was of about 30%__ which is a weird value for a binary classification task. This means we would be __substancially better off chosing exactly the oposite of the predicted label__.
+One of the most intriguing results we got was when applying KNN classifiers (K = 3 or 5 ) to the problem. The __cross validated accuracy was of about 30%__ which is a weird value for a binary classification task. This means we would be __substantially better off choosing exactly the opposite of the predicted label__.
 
 This result is even more stunning if we take into account that the best performing classifiers were achieving about 55%.
 
@@ -66,7 +66,7 @@ This result is even more stunning if we take into account that the best performi
 
 We understood what happened when we noticed that in the given dataset some of the same phrases were translated by humans and by machines. This meant that our KNN approach were finding on the test set the complementary phrase to the one it had been trained on. This led the algorithm to predict those labels incorrectly.
 
-This situation could have been explored (we could achieve about __70% cross validaded accuracy__), however we decided not to do it for __two__ main reasons:
+This situation could have been explored (we could achieve about __70% cross validated accuracy__), however we decided not to do it for __two__ main reasons:
 
 1. Creating a model based on this artifact __didn't seem correct__, we would only have good results on this dataset and not on real world data.
 2. There was a chance that the test dataset could not have any of the complementary phrases to the ones on the dataset, which __would mean much worse results__.

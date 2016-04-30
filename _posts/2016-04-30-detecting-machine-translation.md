@@ -75,9 +75,10 @@ This situation could have been explored (we could achieve about __70% cross vali
  Our final model achieved a __cross validation score of (55.0 +/- 1.6)%__ and a __final result of 57.8%__.
 
 ## What we learned
-This challenge turned out to be an amazing experience. We didn't have any contact with the natural language field and ended up getting our hands dirty with many of the fields techniques.
+This challenge turned out to be an __amazing experience__. We didn't have any contact with the natural language field and ended up getting our hands dirty with many of the fields techniques.
 Even if we didn't win the competition we feel it was totally worth it, because of the knowledge we gained and the fun we had.
-In the end the results were pretty close for the 6 top teams and we were reasonably happy with our final result for this hard challenge that lasted only 10 days.
+
+In the end the results were pretty close for the 6 top teams and we were __reasonably happy with our final result for this hard challenge that lasted only 10 days__.
 
 ### Global Results:
 1. Francisco Dias: 59.72%

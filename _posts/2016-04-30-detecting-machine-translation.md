@@ -10,7 +10,7 @@ title: Detecting Machine Translation
 
 At the [JEEC16](http://jeec.tecnico.pt/jeec16/) (a Electrical and Computer Engineering event organized by the students at [Técnico](http://tecnico.ulisboa.pt)) conference [Unbabel](https://unbabel.com/) (a Portuguese startup that does human powered machine translation) went to give a talk and proposed a challenge to the students attending. I and Ricardo Martins decided to participate.
 
-The __goal__ of the challenge was, given a dataset of spanish phrases, to create a model that would __distinguish between human and machine translations__.
+The __goal__ of the challenge was, given a dataset of spanish phrases, to create a model that would __distinguish between human and machine translations__. We had 10 days to create our solution and then we were given the test dataset to classify and send back the results.
 
 ## The Data
 
@@ -54,7 +54,7 @@ As 20K samples is a small dataset for Natural Language Tasks we searched for som
 
 ## What worked best
 
-A __Voting Classifier__ based on __LDA__, __LogisticRegression__ and __AdaBoost__ with on the __handmade features__ and on the __POS Tagged bi-grams__ with dimensionality reduction by __principal component analysis__.
+A __Voting Classifier__ based on __LDA__, __LogisticRegression__ and __AdaBoost__ trained on the __handmade features__ and on the __POS Tagged bi-grams__ with dimensionality reduction by __principal component analysis__.
 
 ## An Interesting discovery
 
@@ -73,6 +73,11 @@ This situation could have been explored (we could achieve about __70% cross vali
 
 ## Final Results:
  Our final model achieved a __cross validation score of (55.0 +/- 1.6)%__ and a __final result of 57.8%__.
+
+## What we learned
+This challenge turned out to be an amazing experience. We didn't have any contact with the natural language field and ended up getting our hands dirty with many of the fields techniques.
+Even if we didn't win the competition we feel it was totally worth it, because of the knowledge we gained and the fun we had.
+In the end the results were pretty close for the 6 top teams and we were reasonably happy with our final result for this hard challenge that lasted only 10 days.
 
 ### Global Results:
 1. Francisco Dias: 59.72%

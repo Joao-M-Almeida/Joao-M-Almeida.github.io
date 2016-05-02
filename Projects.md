@@ -13,4 +13,4 @@ I was the leader of HackerSchool for one year and have been a member for 4 years
 
 ### Contests
 
-- __[JEEC](http://jeec.tecnico.pt/jeec16/) / [Unbabel](https://unbabel.com/) 2016 challenge__: more about it [here](../2016/04/23/detecting-machine-translation/).
+- __[JEEC](http://jeec.tecnico.pt/jeec16/) / [Unbabel](https://unbabel.com/) 2016 challenge__: more about it [here](../2016/04/30/detecting-machine-translation/).

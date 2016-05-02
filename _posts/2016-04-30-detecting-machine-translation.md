@@ -80,6 +80,9 @@ Even if we didn't win the competition we feel it was totally worth it, because o
 
 In the end the results were pretty close for the 6 top teams and we were __reasonably happy with our final result for this hard challenge that lasted only 10 days__.
 
+#### __Thanks to__
+[Lídia](https://github.com/lidiamcfreitas) who gave us ideas on how to approach the problem and helped with some python related bugs.
+
 ### Global Results:
 1. Francisco Dias: 59.72%
 2. Catarina Silva: 59.22%

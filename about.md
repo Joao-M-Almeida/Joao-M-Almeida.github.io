@@ -3,4 +3,11 @@ layout: page
 title: About me
 ---
 
-I'm an engineering student from Lisbon, Portugal. I'm into machine learning and Artificial Intelligence in general. Reach me at jmirandadealme on gmail.
+## Who am I?
+
+A Student at [Técnico Lisboa](http://tecnico.ulisboa.pt) finishing a Master Degree in Electrical and Computer Enginnering. I'm currently working on my thesis titled **_Recommeder Systems for Tech Recruitment_**.
+
+
+## How to contact me
+
+Reach me at __jmirandadealme__ on gmail.

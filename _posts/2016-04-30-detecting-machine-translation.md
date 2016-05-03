@@ -50,7 +50,7 @@ We wondered if there were __common spanish mistakes__ made by the machine transl
 This ended __improving our cross validated score on about 1%__.
 
 ### Getting more data
-As 20K samples is a small dataset for Natural Language Tasks we searched for some external data that could aid our efforts. Since we didn't find any dataset for this task we decided to create one from [The Bilingual News](http://www.thebilingualnews.com/) with the help of [Google Translate](http://translate.google.com/). This was done manually and the resulting dataset was of poor quality so we ended up giving up. We were running out of time and our results weren't improving with this extra data.
+As 20K samples is a small dataset for Natural Language Tasks we searched for some external data that could aid our efforts. Since we didn't find any dataset for this task we decided to create one from [The Bilingual News](http://www.thebilingualnews.com/) with the help of [Google Translate](http://translate.google.com/). This was done manually and the resulting dataset was of poor quality so we ended up giving up on this idea. We were running out of time and our results weren't improving with this extra data.
 
 ## What worked best
 

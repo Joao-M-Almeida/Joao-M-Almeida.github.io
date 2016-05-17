@@ -11,7 +11,7 @@ Here you can find a list of some of the projects I am or was involved in.
 
 I was the leader of HackerSchool for one year and have been a member for 4 years.
 
-On one of events, the __LX Reactor Winter Edition - 2014__, with a few friends I built an awesome __RGB LED Tower__, you can check the [Github](https://github.com/HackerSchool/LEDtower) repo for photos. 
+On one of events, the __LX Reactor Winter Edition - 2014__, with a few friends I built an awesome __RGB LED Tower__, you can check the [Github](https://github.com/HackerSchool/LEDtower) for photos. 
 
 ### Contests
 

@@ -6,17 +6,21 @@ tldr:  Tonight I decided to implement a genetic algorithm to take care of the pa
 
 ## __TL;DR__
 
-Tonight I decided to implement a genetic algorithm to take care of the parameter optimization for my master thesis. I wanted to do it in one night, but ended up spending a couple of hours on the following day fixing some stuff. You can find the resulting code [here](https://gist.github.com/Joao-M-Almeida/06972e6a4c005a3f9c37f36e9892bcf9).
+Tonight I decided to implement a __genetic algorithm__ to take care of the parameter optimization for my master thesis. I wanted to do it in one night, but ended up spending a couple of hours on the following day fixing some stuff. You can find the resulting code [here](https://gist.github.com/Joao-M-Almeida/06972e6a4c005a3f9c37f36e9892bcf9).
 
 ## Why? How?
 
 I have to optimize 5 models, each with more than 4 continuous parameters for my master thesis and I got tired of hand tuning them.
 
-So I decided to spend one night trying to implement a Genetic algorithm to optimize the parameters for me. Up until now I had been doing a mix of a grid search and hand picking parameter values to try to improve on the RMSE score of my models.
+So I decided to spend one night trying to implement a __Genetic algorithm__ to optimize the parameters for me. Up until now I had been doing a mix of a __grid search__ and __hand picking parameter values__ to try to improve on the RMSE score of my models.
 
-I have been working in Python 2.7 on my thesis so I decided to use and to make the implementation generic so it could be used in other projects.
+I have been working in __Python 2.7__ on my thesis so I decided to use and to make the implementation generic so it could be used in other projects.
 
 I decided to write this post to help me organize my thoughts while implementing and to see if I would get some feedback on my implementation.
+
+## Sources
+
+Most of the ideas for the algorithms came from what I remembered of my Neural Networks class at TU Delft where we covered the topic and from [wikipedia](https://en.wikipedia.org/wiki/Genetic_algorithm), of course.
 
 ## What do I need from the models to optimize?
 

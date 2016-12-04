@@ -21,3 +21,9 @@ I enrolled in my 5 year bachelor and master course on September 2011 and have be
 ### At TU Delft
 
 On 2014/2015 I did an exchange program at [TU Delft](http://tudelft.nl) where I first add contact with Artificial Intelligence, Machine Learning and Data Science. This experience made me deviate a bit from my master curricullum and take a few really interesting courses on the area. I even ended up attending the [2015 Benelearn](http://www.benelearn2015.nl/).
+
+## All my posts:
+
+{% for post in site.posts %}
+{{ post.date | date_to_string }}: [{{ post.title }}]({{site.baseurl}}{{post.url}})
+{% endfor %}

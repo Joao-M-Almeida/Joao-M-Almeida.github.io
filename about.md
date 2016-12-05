@@ -7,10 +7,16 @@ title: About me
 
 A Student at [Técnico Lisboa](http://tecnico.ulisboa.pt) finishing a Master Degree in Electrical and Computer Enginnering. I'm currently working on my thesis **_Recommeder Systems for Tech Recruitment_** with [Landing.jobs](http://landing.jobs).
 
-
 ## How to contact me
 
 Reach me at __jmirandadealme__ on gmail.
+
+## Why did I create another tech blog?
+
+I believe I get a better understanding of a given topic when I try to explain it to someone else.
+So I plan to use the blog to serve as a way to get a better understanding of topics I'm interested in.
+I also want to improve and practice writing, specially technical writing.
+So I'll take the time to document some projects and experiments I'll do. 
 
 ## Some stuff I have done
 

@@ -1,18 +1,44 @@
 ---
 layout: post
 title: Bias and Variance in Cross Validation strategies
+tldr: Cross Validation is not as simple as it might seem at first. There are many different strategies to find "the best" model and to evaluate its performance. On this post I cover some of the most important approaches and try to convey the intuitions behind them.
 ---
 
+<!-- Alternative title: How to do proper cross validation  -->
+
 ## __TL;DR__
-TESt
+
+Cross Validation is not as simple as it might seem at first.
+There are many different strategies to find "the best" model and to evaluate its performance.
+On this post I cover some of the most important approaches and try to convey the intuitions behind them.
 
 ## Why the focus on Cross Validation ?
 
-I have been talking with [Lídia](https://github.com/lidiamcfreitas) about her Machine Learning assignments that consist of a [Kaggle](https://www.kaggle.com/) competition in the traditional format with a public and a private test dataset.
-This led me to realize that Cross validation and estimating the performance of Machine Learning models is a much more complex topic than what I thought.
+I have been discussing with [Lídia](https://github.com/lidiamcfreitas) her projects for her Machine Learning class.
+These are [Kaggle](https://www.kaggle.com/) competitions in the traditional format where the goal is to maximize the performance of a model measured in a test dataset.
+Usually there is a public leaderboard where the contestants can know their performance on half the test data, but the final result of the competition is based on the performance on the other half of the test data.
+Because of this there's a risk of overfitting the public leaderboard and getting a worst performance than expected in the private test set.
+
+This led me to realize that __Cross validation__ and estimating the performance of Machine Learning models is a much more complex topic than what I thought.
 So I decided to explore it and to write this post as a summary of I what I learned.
 
-## Estimating model performance
+In this post I won't focus on the evaluation metric, let's just assume it is defined and we want to find a model that will have the best performance on real world data measured by that metric.
+It can be the F1-score, accuracy, precision etc.
+
+## Why do we need Cross Validation ?
+
+Cross validation is a strategy to evaluate the performance of a model and is generally used as guide to tune its parameters.
+
+The __naive approach__ to estimating the quality of a model is to train the model on all the available data and then test it in that same data.
+One clear way to see how problematic this approach is is to think about the K Nearest Neighbors model when K = 1.
+In that situation the model will classify all data points correctly, achieving a perfect performance.
+It is however clear that this is an artificial performance.
+Moreover it has severe __bias__ problems and is very prone to __overfitting__.
+
+The next logical step would be to train the model in a subset of the data and test it on the remainder.
+This is called the __hold-out__ method and although it still suffers from large bias and being prone to overfitting it at least presents the model with new samples during testing.
+The usual size of the held out data varies between __15__ and __50 %__.
+As you can easily see this is not an efficient use of the available data, your model is not
 
 
 ## K-Fold cross validation: the default
@@ -25,6 +51,13 @@ So I decided to explore it and to write this post as a summary of I what I learn
 ### Implementing with Scikit-learn
 
 TODO: Add code
+
+## More advanced Cross Validation Techniques
+
+- Bootstrap
+- Stratified Cross Validation
+- Balanced Stratified Cross Validation
+- Stratified Bootstrap
 
 ## Sources and Further reading:
 

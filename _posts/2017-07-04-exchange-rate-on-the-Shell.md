@@ -11,6 +11,8 @@ I've made a small python script to fetch some useful information about currency 
 
 Check it out [here](https://gist.github.com/Joao-M-Almeida/5dcb9be460f9f4ef8c3cf76f48842dbe).
 
+---------
+
 ## The idea
 
 Due to being paid in Swiss Francs, but spending mostly Euros, I have been paying close attention on the CHF-EUR exchange rate.

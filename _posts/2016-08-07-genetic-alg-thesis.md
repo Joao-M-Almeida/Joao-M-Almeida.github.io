@@ -8,6 +8,8 @@ tldr:  Tonight I decided to implement a genetic algorithm to take care of the pa
 
 Tonight I decided to implement a __genetic algorithm__ to take care of the parameter optimization for my master thesis. I wanted to do it in one night, but ended up spending a couple of hours on the following day fixing some stuff. You can find the resulting code [here](https://gist.github.com/Joao-M-Almeida/06972e6a4c005a3f9c37f36e9892bcf9).
 
+--------
+
 ## Why? How?
 
 I have to optimize 5 models, each with more than 4 continuous parameters for my master thesis and I got tired of hand tuning them.

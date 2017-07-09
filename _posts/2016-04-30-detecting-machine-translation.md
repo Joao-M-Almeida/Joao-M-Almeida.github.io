@@ -6,6 +6,8 @@ tldr:  I and Ricardo Martins decided to participate on the JEEC/Unbabel Machine 
 ## __TL;DR__
  I and Ricardo Martins decided to participate on the JEEC/Unbabel Machine Translation Detection Challenge, we ended in 4th place. The Code and dataset are available on the project [Github](https://github.com/Joao-M-Almeida/JEECUnbabelChallenge).
 
+-------
+
 ## The Challenge
 
 

@@ -10,19 +10,21 @@ tldr: Cross Validation is not as simple as it might seem at first. There are man
 
 Cross Validation is not as simple as it might seem at first.
 There are many different strategies to find "the best" model and to evaluate its performance.
-On this post I cover some of the most important approaches and try to convey the intuitions behind them.
+On this post I cover some of the most important approaches and try to convey the intuitions behind them. The main takeaway: Don't trust your cross validation score.
+
+------
 
 ## Why the focus on Cross Validation ?
 
-I have been discussing with [Lídia](https://github.com/lidiamcfreitas) her projects for her Machine Learning class.
+I have been discussing with [Lídia](https://github.com/lidiamcfreitas) her Machine Learning projects.
 These are [Kaggle](https://www.kaggle.com/) competitions in the traditional format where the goal is to maximize the performance of a model measured in a test dataset.
-Usually there is a public leaderboard where the contestants can know their performance on half the test data, but the final result of the competition is based on the performance on the other half of the test data.
-Because of this there's a risk of overfitting the public leaderboard and getting a worst performance than expected in the private test set.
+Usually there is a public leaderboard where the contestants can know their performance on half the test data, but the final result of the competition is based on the performance on the other unknown half of the test data.
+There's a large risk of overfitting the public leaderboard and getting a worst performance than expected in the private test set.
 
-This led me to realize that __Cross validation__ and estimating the performance of Machine Learning models is a much more complex topic than what I thought.
+Thinking and reading about __Cross validation__ and how to estimate the performance of Machine Learning models led me to realize that it is a much more complex topic than what I thought.
 So I decided to explore it and to write this post as a summary of I what I learned.
 
-In this post I won't focus on the evaluation metric, let's just assume it is defined and we want to find a model that will have the best performance on real world data measured by that metric.
+In this post I won't focus on the evaluation metric, let's just assume it's defined and we want to find a model that will have the best performance on real world data measured by that metric.
 It can be the F1-score, accuracy, precision etc.
 
 ## Why do we need Cross Validation ?

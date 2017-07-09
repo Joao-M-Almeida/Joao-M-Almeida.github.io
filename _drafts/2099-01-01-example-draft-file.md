@@ -8,6 +8,8 @@ tldr: this is the structure of an example draft file
 
 this is the structure of an example draft file
 
+---------
+
 ## Post Intro
 
 Text

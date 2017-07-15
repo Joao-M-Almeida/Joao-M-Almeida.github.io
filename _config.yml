@@ -8,15 +8,15 @@ permalink:           pretty
 title:               My Tech Journey
 tagline:             'A blog by João Almeida'
 description:         ''
-url:                 http://lanyon.getpoole.com
+url:                 http://joao-m-almeida.github.io/
 baseurl:             ''
 paginate:            10
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              João Almeida
+  url:               http://joao-m-almeida.github.io/
+  email:             jmirandadealme@gmail.com
 
 # Custom vars
 version:             1.0.0

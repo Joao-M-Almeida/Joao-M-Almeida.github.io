@@ -1,12 +1,12 @@
 ---
 layout: post
 title: WTF - Wikipedia Traffic Forecasting
-tldr: I participated in my first Kaggle competition, the Web Traffic Time Series Forecasting competition, where I attempted to predict daily visits to Wikipedia pages for the next 2 months. It occupied more time and I got worse results than what I expected. Overall it was a fun way to learn quite a few new things.
+tldr: I participated in my first Kaggle competition, the Web Traffic Time Series Forecasting competition, where I attempted to predict daily visits to Wikipedia pages for the next 2 months. I'm currently at 74th out of 1095. It occupied more time and I got worse results than what I expected. Overall it was a fun way to learn quite a few new things.
 ---
 
 ## __TL;DR__
 
-I participated in my first [Kaggle](https://www.kaggle.com/) competition, the [Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting/) competition, where I attempted to predict daily visits to Wikipedia pages 2 months in advance. It occupied more time and I got worse results than what I expected. Overall it was a fun way to learn quite a few new things.
+I participated in my first [Kaggle](https://www.kaggle.com/) competition, the [Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting/) competition, where I attempted to predict daily visits to Wikipedia pages 2 months in advance. I'm currently at 74th out of 1095.  It occupied more time and I got worse results than what I expected. Overall it was a fun way to learn quite a few new things.
 
 ---------
 
@@ -118,7 +118,7 @@ def get_views(web_info, dates=['20170911']):
 
 ## The Result
 
- (Not available yet). As the models are evaluated on future data the scores will only be available on the 15th of November.
+Final results aren't available yet, as the models are evaluated on future data the scores will only be available on the 15th of November. Currently I'm at 74th out of 1095 teams that participated with a 39.72 SMAPE score. The best score is of 34.79.
 
 ## Tools
 

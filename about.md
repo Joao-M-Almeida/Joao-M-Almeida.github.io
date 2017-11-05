@@ -9,7 +9,7 @@ title: About me
 
 ## Who am I?
 
-I'm João Almeida, a 23 years old software developer from Lisbon working at [CERN](https://cern.ch) in Geneva. I'm into Data Science, Machine Learning and Artificial Intelligence, but in general I'm interested in any kind of technically challenging problem.
+I'm João Almeida, a 24 years old software developer from Lisbon working at [CERN](https://cern.ch) in Geneva. I'm into Data Science, Machine Learning and Artificial Intelligence, but in general I'm interested in any kind of technically challenging problem.
 
 
 -----
@@ -32,7 +32,7 @@ So I'll take the time to document some projects and experiments I'll do.
 I'm working at the Advanced Information Systems Group inside CERN, developing solutions for document and business processes management.
 
 My main focus has been the development of a common new search and access control system for two large applications with millions of documents.
-I've been working with Java, Drools, Solr and Alfresco.
+I've been working with Java, Drools, Solr/ElasticSearch and Alfresco.
 
 I also participated on the [CERN Spring Campus 2017](http://www.gla.ac.uk/schools/computing/60thanniversary/cernspringcampus/) in Glasgow where I gave two talks, one on Machine Learning and the other on Recommender Systems.
 
@@ -42,7 +42,7 @@ I enrolled in my bachelor and master in Electrical and Computer Enginnering on S
 I did my master thesis **_Recommeder Systems for Tech Recruitment_** with [Landing.jobs](http://landing.jobs).
 <!-- You can lear more about it here TODO make a post and asdd link -->
 
-I was deeply involved with [HackerSchool](http://hackerschool.io) for more than 4 years and led it during one of them. I have also helped and contributed to the students association [AEIST](http://www.aeist.pt/) and I was member of [Técnico's Pedagogical Council](http://conselhopedagogico.tecnico.ulisboa.pt/).
+I was deeply involved with [HackerSchool](http://hackerschool.io) for more than 4 years and led it during one of them. I have also helped and contributed to the students association [AEIST](http://www.aeist.pt/) and I was member of [Técnico's Pedagogical Council](http://conselhopedagogico.tecnico.ulisboa.pt/). In 2015 I was selected to represent IST at the [CLUSTER](https://cluster.org/) symposium in Eindhoven.
 
 ### At TU Delft
 
